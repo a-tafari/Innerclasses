@@ -54,22 +54,28 @@ public class ConnectionManager {
         String ip;
         int port;
         String protocol;
-
+        boolean isclosed=false;
 
         public ManagedConnection(String ip, int port, String protocol) {
             this.ip = ip;
             this.port = port;
             this.protocol = protocol;
+
         }
 
         public String getIp() {
-            return ip;
+            if (isclosed){
+                return "Error 404";
+            }
+            else return ip;
         }
 
 
         public int getPort() {
-
-            return port;
+            if (isclosed){
+                return 404;
+            }
+            else return port;
         }
 
 
@@ -80,11 +86,16 @@ public class ConnectionManager {
 
 
         public String Connect() {
+            if (isclosed){
+                return "Error 404";
+            }
             return "Connection was Successful";
         }
 
         public void close(){
             ConnectionManager.this.currentConnections--;
+            isclosed=true;
+
         }
     }
 }

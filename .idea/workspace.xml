@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80bcc2d8-6b1c-4b17-8c4c-58b3f1f4ce4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InnerClasses.iml" afterPath="$PROJECT_DIR$/InnerClasses.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/InnerClasses/ConnectionManager.java" afterPath="$PROJECT_DIR$/src/main/java/InnerClasses/ConnectionManager.java" />
     </list>
     <ignored path="InnerClasses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,17 +38,11 @@
       <file leaf-file-name="ConnectionManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/InnerClasses/ConnectionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="86" column="56" selection-start-line="86" selection-start-column="56" selection-end-line="86" selection-end-column="56" />
+            <state relative-caret-position="124">
+              <caret line="90" column="13" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
               <folding>
                 <element signature="e#264#265#0" expanded="true" />
                 <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#1670#1671#0" expanded="true" />
-                <element signature="e#1703#1704#0" expanded="true" />
-                <element signature="e#1888#1889#0" expanded="true" />
-                <element signature="e#1946#1947#0" expanded="true" />
-                <element signature="e#1976#1977#0" expanded="true" />
-                <element signature="e#2043#2044#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,8 +95,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ConnectionManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/InnerClasses/Protocol.java" />
         <option value="$PROJECT_DIR$/src/main/java/InnerClasses/Connection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InnerClasses/ConnectionManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/InnerClasses/ConnectionMangerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/InnerClasses/ConnectionManager.java" />
       </list>
     </option>
   </component>
@@ -783,7 +771,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474988958642</updated>
-      <workItem from="1474988963526" duration="10984000" />
+      <workItem from="1474988963526" duration="11734000" />
     </task>
     <servers />
   </component>
@@ -811,7 +799,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10984000" />
+    <option name="totallyTimeSpent" value="11734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-15" y="51" width="1280" height="712" extended-state="0" />
@@ -902,17 +890,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/InnerClasses/ConnectionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="86" column="56" selection-start-line="86" selection-start-column="56" selection-end-line="86" selection-end-column="56" />
+        <state relative-caret-position="124">
+          <caret line="90" column="13" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
           <folding>
             <element signature="e#264#265#0" expanded="true" />
             <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#1670#1671#0" expanded="true" />
-            <element signature="e#1703#1704#0" expanded="true" />
-            <element signature="e#1888#1889#0" expanded="true" />
-            <element signature="e#1946#1947#0" expanded="true" />
-            <element signature="e#1976#1977#0" expanded="true" />
-            <element signature="e#2043#2044#0" expanded="true" />
           </folding>
         </state>
       </provider>
